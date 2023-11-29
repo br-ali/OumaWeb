@@ -19,5 +19,10 @@ $(document).ready(function()
         $('.popup').fadeIn();
     })
     
-    
+    $('.close').click(function(e){
+        e.preventDefault();
+        $('.popup').fadeOut();
+      
+
+    })
 });
